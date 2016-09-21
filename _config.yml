@@ -13,4 +13,7 @@ github_username:  sensorika
 
 # Build settings
 # markdown: kramdown
-markdown: maruku
+# markdown: maruku
+markdown: redcarpet
+redcarpet:
+  extensions: [tables]
