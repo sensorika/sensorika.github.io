@@ -12,4 +12,5 @@ twitter_username: 404
 github_username:  sensorika
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+markdown: maruku
