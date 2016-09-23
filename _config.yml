@@ -1,20 +1,51 @@
 # Site settings
-title: sensorika documentation site
-motto: Sensorika. Documentation
-email: stub@stub.com
+title: Sensorika. Documentaion
+email: your@mail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://sensorika.info" # the base hostname & protocol for your site
-twitter_username: 404
-github_username:  sensorika
+  Sensorika. Documentaion.
+baseurl: "/doc" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site
+google_analytics: #your GA unique id, e.g. UA-xxxxxxxx-x
+disqus_username: #Your disqus_username to add comments on the post
+
+# Optional settings
+github: #your github username
+linkedin: #linkedin username
+twitter:
+  username: #twitter username here
+facebook:
+  app_id: 1234
+  publisher: 1234
+google_plus: #gplus id or username
+ads: true # add your ad code in _includes/ad.html file
+
 
 # Build settings
-# markdown: kramdown
-# markdown: maruku
-#redcarpet:
-#  extensions: [tables]
-redcarpet:
-    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+markdown: kramdown
+
+sass:
+    style: compressed
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jemoji
+
+defaults:
+    - {scope: {type: posts}, values: {layout: post, permalink : '/:year/:title'}}
+
+include:
+  - _pages
+
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+paginate: 30
+paginate_path: 'p/:num'
