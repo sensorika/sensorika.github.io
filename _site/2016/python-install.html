@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Python. Начало работы - Sensorika. Documentaion
+  </title>
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<meta property="og:title" content="Python. Начало работы">
+<meta name="description" content="Python. Начало работыДля выполнения лабораторных работ необходимо поставить интерпретатор CPython, установить нужные пакеты и настроить окружение. Для продуктивной разработки ещё рекомендуется ставить программы для редактирования кода.">
+<meta property="og:description" content="Python. Начало работыДля выполнения лабораторных работ необходимо поставить интерпретатор CPython, установить нужные пакеты и настроить окружение. Для продуктивной разработки ещё рекомендуется ставить программы для редактирования кода.">
+<meta property="og:site_name" content="Sensorika. Documentaion">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-09-20T14:23:32+03:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@">
+<meta property="article:publisher" content="1234">
+<meta property="fb:app_id" content="1234">
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Python. Начало работы",
+    "datePublished": "2016-09-20T14:23:32+03:00",
+    "description": "Python. Начало работыДля выполнения лабораторных работ необходимо поставить интерпретатор CPython, установить нужные пакеты и настроить окружение. Для продуктивной разработки ещё рекомендуется ставить программы для редактирования кода.",
+    "url": "/2016/python-install"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  
+  <link rel="alternate" type="application/rss+xml" title="Sensorika. Documentaion" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+</head>
+
+  <body>
+    <header class="site-header">
+    <div class="wrapper">
+        <a href="#" class="menu-icon">
+            <svg viewbox="0 0 18 15">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path>
+                <path d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path>
+                <path d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
+            </svg>
+        </a>
+        <a class="site-title" href="/">Sensorika. Documentaion</a>
+        <nav class="site-nav">
+            <div class="trigger">
+            
+                
+            
+                
+                        <a class="page-link" href="/about">About</a>
+                
+            
+                
+                        <a class="page-link" href="/archive">Archive</a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Python. Начало работы</h1>
+    <p class="post-meta">
+       <time datetime="2016-09-20T14:23:32+03:00" itemprop="datePublished">
+          Sep 20, 2016
+       </time>
+       
+        | <span class="time">
+            3
+          </span>
+           Minute Read
+    </p>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    <h1 id="python--">Python. Начало работы</h1>
+<p>Для выполнения лабораторных работ необходимо поставить интерпретатор CPython, установить нужные пакеты и настроить окружение. Для продуктивной разработки ещё рекомендуется ставить программы для редактирования кода.</p>
+
+<p>Устанавливать каждый компонент по отдельности занимает много времени + часто возникают проблемы с установкой так как некоторые пакеты зависят от нативных библиотек.
+Для более быстрой и легкой установки будем использовать специальный дистрибутив Anaconda в который уже входит:</p>
+
+<ul>
+  <li>Интерпритатор Python 2.7.x/3.5.x</li>
+  <li>
+<a href="https://docs.continuum.io/anaconda/pkg-docs">411 математических пакетов</a>, 160 из которых уже предустановленны</li>
+  <li>Среды для разработки (Spyder, Jypiter)</li>
+  <li>Удобный пакетный менеджер</li>
+</ul>
+
+<p>Набор пакетов ориентирован на статистическую обработку данных, вычесления в научных и инженерных областях. С таким набором пакетов Python покрывает большую часть функционала таких математических пакетов как Matlab, Octave и R.</p>
+
+<h2 id="anaconda">Установка Anaconda</h2>
+<ol>
+  <li>Скачайте последний дистрибутив Anaconda. Его можно скачать с <a href="https://www.continuum.io/downloads">официального сайта</a>. Выберите установщик в соотвествии c разрядностью вашей операционной системы (<a href="">какая разрядность у моей ОС?</a>) и версией CPython - 3.5.x.</li>
+  <li>
+    <p>Запустите скачанный инсталятор. Процесс установки мало чем отличается от установки любой Windows программы. Единственное на что необходимо обратить внимание это путь, куда устанавливается Anaconda.
+В пути директории, куда ставится Anaconda, не должно быть русских букв. Поэтому рекомендуется ставить в директорию по следующему пути:
+<code class="highlighter-rouge">C:\Programms Files\anaconda3</code></p>
+  </li>
+  <li>
+    <p>Поставьте обе галочки <code class="highlighter-rouge">Add Anaconda to my PATH environment variable (Добавить каталог программ в путь поиска по умолчанию)</code> и <code class="highlighter-rouge">Register Anaconda as my default Python (Зарегистрировать Anaconda в качестве основного интерпретатора Python)</code>. Нажмите кнопку Install.</p>
+  </li>
+  <li>Дождитесь конца установки.</li>
+</ol>
+
+<h2 id="anaconda---">Использование Anaconda из графической оболочки</h2>
+<p>Ярлык для запуска находится в <code class="highlighter-rouge">Пуск -&gt; Программы -&gt; Anaconda -&gt; Anaconda Navigator</code>
+В той же директории, так же находятся ярлыки для запуска сред.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Название закладки</th>
+      <th>Её назначение</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">Home</code></td>
+      <td>Инструменты для работы с Python кодом</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Environment</code></td>
+      <td>Список установленных или готовых к установке пакетов. Здесь можно выбрать пакет для установки, удалить или обновить его</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Learning</code></td>
+      <td>Коллекция онлайн уроков и курсов по Python и математическим пакетам</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Community</code></td>
+      <td>События и сайты коммьюнити где могут помочь с решением проблем</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="anaconda--">Использование Anaconda из консоли</h2>
+<p>Если были поставлены 2 галочки в процессе установки, то все установленные программы были установленн в общий путь. Это обозначает что любую программу можно запустить из консоли. Можно воспользоваться стандартной конcолью Windows или использовать специальную консоль, которая установилась вместе с Anaconda. Ярлык для запуска должен был появиться в <code class="highlighter-rouge">Пуск -&gt; Программы -&gt; Anaconda -&gt; Anaconda Promt</code>.</p>
+
+<h3 id="section">Список доступных команд</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Название команды</th>
+      <th>Её назначение</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">conda ...</code></td>
+      <td>Запускает специфичные для Anaconda команды, где <code class="highlighter-rouge">...</code>
+</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">conda info</code></td>
+      <td>Выводит инормацию о дистрибутиве</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">conda install ...</code></td>
+      <td>Устанавливает пакет из основного репозитория дистрибутива</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">conda update conda</code></td>
+      <td>Обновляет все пакеты дистрибутива</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">conda updata anaconda</code></td>
+      <td>Обновляет версию дистрибутива</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">python file.py</code></td>
+      <td>Интерпритирует питоновский файл с кодом</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">python</code></td>
+      <td>Запускает интерактивную питоновскую оболочку</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">spyder</code></td>
+      <td>Интерактивная IDE для научных расчетов</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">jypiter</code></td>
+      <td>Интерактивная оболочка</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">pip ...</code></td>
+      <td>Запускает пакетный менеджер питона</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">pip install ...</code></td>
+      <td>Устанавливает пакет из общего репозитория</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3 id="section-1">Как узнать разрядность ОС</h3>
+<p>Пуск -&gt; ПКМ на “Мой компьютер” -&gt; Свойства -&gt; Тип системы</p>
+
+<h3 id="section-2">Как запустить консоль</h3>
+<p>Пуск -&gt; Ввести <code class="highlighter-rouge">cmd</code> в <code class="highlighter-rouge">Найти программы и файлы</code> -&gt; Enter</p>
+
+  </div>
+  <footer class="post-footer">
+
+    <!-- Social Share Button-->
+    <!-- 
+    <ul class="sharebutton">
+      <li class="share">Share :</li>
+      <li class="fb">
+        <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog','width=626,height=436');return false;">Facebook</a>
+      </li>
+      <li class="linkedin">
+        <a href="http://www.linkedin.com/cws/share?url=/2016/python-install" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=700,resizable=0,top=50,left=100&quot;);return false;" target="_blank" title="Share on Linkedin">Linkedin</a>
+      </li>
+      <li class="twitter">
+        <a href="https://twitter.com/intent/tweet?text=/2016/python-install - Python. Начало работы by @" target="_blank" title="Share to Twitter">Twitter</a>
+      </li>
+      <li class="gplus">
+        <a href="https://plus.google.com/share?url=/2016/python-install" onclick="window.open(this.href,&quot;popupwindow&quot;,&quot;status=0,height=500,width=700,resizable=0,top=50,left=100&quot;);return false;" target="_blank" title="Share on Google Plus">Google+</a>
+      </li>
+      <li class="pinterest">
+        <a href="http://pinterest.com/pin/create/link/?url=/2016/python-install" target="_blank" title="Share to Pinterest">Pinterest</a>
+      </li>
+    </ul>
+    -->
+    
+    <!-- Post Navigation -->
+    <div class="post-navigation">
+      <a class="prev" href="/2016/python-cheatsheet">← Previous Post</a>
+      
+    </div>
+      
+
+  </footer>
+</article>
+
+      </div>
+    </div>
+    
+<footer class="site-footer">
+  <div class="wrapper">
+      <div class="copy">
+          2016 © Sensorika. Documentaion
+      </div>
+  </div>
+</footer>
+
+    <script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
+
+<script type="text/javascript" src="/assets/js/scripts.js"></script>
+
+
+
+  </body>
+</html>
