@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>//doc/2016/python-install</loc>
+<loc>https://sensorika.github.io//doc/2016/python-install</loc>
 <lastmod>2016-09-20T14:23:32+03:00</lastmod>
 </url>
 <url>
-<loc>//doc/2016/python-cheatsheet</loc>
+<loc>https://sensorika.github.io//doc/2016/python-cheatsheet</loc>
 <lastmod>2016-09-19T14:23:32+03:00</lastmod>
 </url>
 <url>
-<loc>//doc/404.html</loc>
+<loc>https://sensorika.github.io//doc/404.html</loc>
 </url>
 <url>
-<loc>//doc/about</loc>
+<loc>https://sensorika.github.io//doc/about</loc>
 </url>
 <url>
-<loc>//doc/archive</loc>
+<loc>https://sensorika.github.io//doc/archive</loc>
 </url>
 <url>
-<loc>//doc/</loc>
+<loc>https://sensorika.github.io//doc/</loc>
 </url>
 </urlset>

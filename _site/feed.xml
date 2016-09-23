@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator>
-<link href="//doc/feed.xml" rel="self" type="application/atom+xml" />
-<link href="//doc/" rel="alternate" type="text/html" />
-<updated>2016-09-23T18:41:28+03:00</updated>
-<id>//doc/</id>
+<link href="https://sensorika.github.io//doc/feed.xml" rel="self" type="application/atom+xml" />
+<link href="https://sensorika.github.io//doc/" rel="alternate" type="text/html" />
+<updated>2016-09-23T18:49:33+03:00</updated>
+<id>https://sensorika.github.io//doc/</id>
 <subtitle>Sensorika. Documentaion.
 </subtitle>
 <entry>
 <title>Python. Начало работы</title>
-<link href="//doc/2016/python-install" rel="alternate" type="text/html" title="Python. Начало работы" />
+<link href="https://sensorika.github.io//doc/2016/python-install" rel="alternate" type="text/html" title="Python. Начало работы" />
 <published>2016-09-20T14:23:32+03:00</published>
 <updated>2016-09-20T14:23:32+03:00</updated>
-<id>//doc/2016/python-install</id>
-<content type="html" xml:base="//doc/2016/python-install">&lt;h1 id=&quot;python--&quot;&gt;Python. Начало работы&lt;/h1&gt;
+<id>https://sensorika.github.io//doc/2016/python-install</id>
+<content type="html" xml:base="https://sensorika.github.io//doc/2016/python-install">&lt;h1 id=&quot;python--&quot;&gt;Python. Начало работы&lt;/h1&gt;
 &lt;p&gt;Для выполнения лабораторных работ необходимо поставить интерпретатор CPython, установить нужные пакеты и настроить окружение. Для продуктивной разработки ещё рекомендуется ставить программы для редактирования кода.&lt;/p&gt;
 
 &lt;p&gt;Устанавливать каждый компонент по отдельности занимает много времени + часто возникают проблемы с установкой так как некоторые пакеты зависят от нативных библиотек.
@@ -145,11 +145,11 @@
 </entry>
 <entry>
 <title>Python. Справочник</title>
-<link href="//doc/2016/python-cheatsheet" rel="alternate" type="text/html" title="Python. Справочник" />
+<link href="https://sensorika.github.io//doc/2016/python-cheatsheet" rel="alternate" type="text/html" title="Python. Справочник" />
 <published>2016-09-19T14:23:32+03:00</published>
 <updated>2016-09-19T14:23:32+03:00</updated>
-<id>//doc/2016/python-cheatsheet</id>
-<content type="html" xml:base="//doc/2016/python-cheatsheet">&lt;h2 id=&quot;section&quot;&gt;Управляющие конструкции&lt;/h2&gt;
+<id>https://sensorika.github.io//doc/2016/python-cheatsheet</id>
+<content type="html" xml:base="https://sensorika.github.io//doc/2016/python-cheatsheet">&lt;h2 id=&quot;section&quot;&gt;Управляющие конструкции&lt;/h2&gt;
 
 &lt;h3 id=&quot;wiki-httpsruwikipediaorgwiki&quot;&gt;Ветвление (&lt;a href=&quot;https://ru.wikipedia.org/wiki/Ветвление_(программирование)&quot;&gt;wiki&lt;/a&gt;)&lt;/h3&gt;
 
